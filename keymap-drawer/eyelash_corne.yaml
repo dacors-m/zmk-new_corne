@@ -56,7 +56,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:pan-up$$
+  - $$mdi:arrow-up-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -85,7 +85,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - $$mdi:volume-off$$
-  - $$mdi:pan-down$$
+  - $$mdi:arrow-down-bold$$
   - RGB EFR
   - RGB SPI
   - RGB BRI
@@ -145,7 +145,7 @@ layers:
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Ctl+$$mdi:keyboard-space$$
+  - LGUI(SPACE)
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
