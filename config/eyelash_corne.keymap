@@ -29,7 +29,6 @@
 / {
     screenshot_macro: screenshot_macro {
         compatible = "zmk,behavior-macro";
-        label = "macOS Screenshot";
         bindings = <
             &kp LCMD
             &kp LSFT
