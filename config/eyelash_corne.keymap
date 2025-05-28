@@ -29,7 +29,7 @@
 / {
     screenshot_macro: screenshot_macro {
         compatible = "zmk,behavior-macro";
-        #sensor-binding-cells = <0>;
+        #binding-cells = <0>;
         bindings = <
             &kp LCMD
             &kp LSFT
